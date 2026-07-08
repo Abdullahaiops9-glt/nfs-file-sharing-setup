@@ -1,0 +1,5 @@
+# Mount NFS Share (Same Machine)
+sudo mount -t nfs localhost:/shared /mnt/nfs-share
+
+# Mount NFS Share (Remote Server)
+sudo mount -t nfs <SERVER_IP>:/shared /mnt/nfs-share
